@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ai69.locoshapes.SecondActivity"
+    android:background="@drawable/secondactivity4">
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:background="@drawable/exitbutton"
+        android:id="@+id/imageButton4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_height="120dp"
+        android:id="@+id/guessShape"
+        android:layout_width="180dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"/>
+
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:id="@+id/shape3"
+        android:layout_marginBottom="65dp"
+        android:layout_above="@+id/imageButton4"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:layout_toStartOf="@+id/imageButton4" />
+
+    <ImageView
+        android:id="@+id/shape1"
+        android:layout_height="90dp"
+        android:layout_width="100dp"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/shape3"
+        android:layout_alignLeft="@+id/shape3"
+        android:layout_alignStart="@+id/shape3" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:id="@+id/shape2"
+        android:layout_alignTop="@+id/shape1"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton4" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:id="@+id/shape4"
+        android:layout_alignTop="@+id/shape3"
+        android:layout_alignLeft="@+id/shape2"
+        android:layout_alignStart="@+id/shape2" />
+
+
+</RelativeLayout>
+
