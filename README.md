@@ -10,4 +10,4 @@ This was a game called "LocoShapes" made for kids. A user can drag and shop diff
 
 # Where are the screenshots?
 
-Unfortunately this was done such a long time ago, I didn't know much about development or Github at the time. Since then I have become an iOS developer. I hope to revive this one day but for now, enjoy the Android code way before the Kotlin days!
+Unfortunately this was done such a long time ago, I didn't know much about development or Github at the time. I tried to run the app on Android Studio as I can't seem to find info on it since uni, still having a dig to find it. Since then I have become an iOS developer. I hope to revive this one day but for now, enjoy the Android code way before the Kotlin days!
